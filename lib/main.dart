@@ -1,5 +1,6 @@
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_form/dialog_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_form/form_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/aspect_ratio_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const DialogWidget(),
-      home: FormWidget(),
+      // home: FormWidget(),
+      home: const AspectRatioWidget(),
     );
   }
 }
