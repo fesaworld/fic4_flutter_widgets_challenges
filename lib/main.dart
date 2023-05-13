@@ -21,6 +21,7 @@ import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/text_widget.d
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/bottom_navbar.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/drawer_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/navigation/navigation_pop.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/navigation/navigation_push.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -60,7 +61,8 @@ class MyApp extends StatelessWidget {
       // home: const TextWidget(),
       // home: const BottomNavbarWidget(),
       // home: const DrawerWidget(),
-      home: const NavigationPop(),
+      // home: const NavigationPop(),
+      home: const NavigationPush(),
     );
   }
 }
