@@ -18,6 +18,7 @@ import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/icon_widget.d
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/image_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/scaffold_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/text_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/navigation/bottom_navbar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -54,7 +55,8 @@ class MyApp extends StatelessWidget {
       // home: const IconWidget(),
       // home: const ImageWidget(),
       // home: const ScaffoldWidget(),
-      home: const TextWidget(),
+      // home: const TextWidget(),
+      home: const BottomNavbarWidget(),
     );
   }
 }
