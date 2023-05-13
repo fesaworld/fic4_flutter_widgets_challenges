@@ -14,6 +14,7 @@ import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/wrap_widget.d
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/button_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/circle_avatar_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/container_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_widget/icon_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -46,7 +47,8 @@ class MyApp extends StatelessWidget {
       // home: WrapWidget(),
       // home: const ButtonWidget(),
       // home: CircleAvatarWidget(),
-      home: const ContainerWidget(),
+      // home: const ContainerWidget(),
+      home: const IconWidget(),
     );
   }
 }
