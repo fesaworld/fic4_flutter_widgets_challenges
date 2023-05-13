@@ -53,7 +53,8 @@ class MyApp extends StatelessWidget {
       // home: const ContainerWidget(),
       // home: const IconWidget(),
       // home: const ImageWidget(),
-      home: const ScaffoldWidget(),
+      // home: const ScaffoldWidget(),
+      home: const TextWidget(),
     );
   }
 }
