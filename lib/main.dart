@@ -7,6 +7,7 @@ import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/expanded_widg
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/gridview_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/listview_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/padding_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/row_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
       // home: const ExpandedWidget(),
       // home: const GridViewWidget(),
       // home: ListViewWidget(),
-      home: const PaddingWidget(),
+      // home: const PaddingWidget(),
+      home: const RowWidget(),
     );
   }
 }
