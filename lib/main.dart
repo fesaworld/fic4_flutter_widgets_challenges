@@ -10,6 +10,7 @@ import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/padding_widge
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/row_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/sizebox_widget.dart';
 import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/stack_widget.dart';
+import 'package:fic4_flutter_widgets_challenges/tugas/basic_layout/wrap_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
       // home: const PaddingWidget(),
       // home: const RowWidget(),
       // home: const SizedBoxWidget(),
-      home: const StackWidget(),
+      // home: const StackWidget(),
+      home: WrapWidget(),
     );
   }
 }
